@@ -1,0 +1,62 @@
+{
+  "dataset_rows": 9994,
+  "date_range": [
+    "2014-01-03",
+    "2017-12-30"
+  ],
+  "total_sales": 2297200.8603,
+  "total_profit": 286397.0217,
+  "total_orders": 5009,
+  "model_results": {
+    "Linear Regression": {
+      "MAE": 2.6081175881880236,
+      "RMSE": 3.5043253063276643,
+      "R2": 0.7617024158854762
+    },
+    "Random Forest": {
+      "MAE": 2.4670555159170404,
+      "RMSE": 3.444920204078845,
+      "R2": 0.769713148068883
+    }
+  },
+  "top_5_products_by_sales": {
+    "Canon imageCLASS 2200 Advanced Copier": 61599.82,
+    "Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind": 27453.38,
+    "Cisco TelePresence System EX90 Videoconferencing Unit": 22638.48,
+    "HON 5400 Series Task Chairs for Big and Tall": 21870.58,
+    "GBC DocuBind TL300 Electric Binding System": 19823.48
+  },
+  "category_sales": {
+    "Technology": 836154.03,
+    "Furniture": 741999.8,
+    "Office Supplies": 719047.03
+  },
+  "region_sales": {
+    "West": 725457.82,
+    "East": 678781.24,
+    "Central": 501239.89,
+    "South": 391721.9
+  },
+  "region_quantity": {
+    "West": 12266,
+    "East": 10618,
+    "Central": 8780,
+    "South": 6209
+  },
+  "top_5_feature_importance": {
+    "Orders": 0.8066,
+    "Profit": 0.0403,
+    "ProfitMargin": 0.0242,
+    "AvgSalesPerOrder": 0.0239,
+    "Sales": 0.0234
+  },
+  "worst_5_products_by_sales": {
+    "Eureka Disposable Bags for Sanitaire Vibra Groomer I Upright Vac": 1.62,
+    "Avery 5": 5.76,
+    "Xerox 20": 6.48,
+    "Grip Seal Envelopes": 7.07,
+    "Avery Hi-Liter Pen Style Six-Color Fluorescent Set": 7.7
+  },
+  "best_profit_subcategory": "Copiers",
+  "worst_profit_subcategory": "Tables"
+}
