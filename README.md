@@ -1,7 +1,7 @@
 # E-Commerce Sales Analysis & Demand Prediction
 
 **Internship Project — Data Science**
-Author: Nivash | B.Tech CSE (AI & ML), VIT Chennai
+Author: Nivash Kumaar S | B.Tech CSE (AI & ML), VIT Chennai
 
 ## 1. Objective
 
